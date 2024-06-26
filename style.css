@@ -1,0 +1,53 @@
+input{margin-top: 25px; margin-bottom: 30px; font-size:150%;margin-left:25px;text-align: center;color:white}
+
+img{width: 100px;display:block;height: 450px;margin-left:auto;margin-right:auto;}
+
+button{background-color:black;font-style: italic;color:white;font-size:larger;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;border-width:2px;border-color:black;margin-right:100px;float: right;margin-top: 25px;margin-inline-start: -60px;padding: 5px 5px;cursor: pointer;border-radius: 10px;text-align: center;}
+
+button:hover{background-color:rgb(114, 129, 25);}
+
+body{background-image: url(playas2.jpg);background-size: 100%;margin: 0;height:100vh;}
+
+input{background-color:transparent;border-radius: 10px;color: rgb(0, 0, 0);}
+
+* {margin: 0; padding: 0px; font-family:lato;}
+
+.slider-frame{width: 1280px; height: auto;margin: 20px auto 0;overflow:hidden;}
+
+.slider-frame ul{display: flex; padding: 0;width: 400%; animation: slide 25s infinite alternate ease-in-out;animation-direction:normal;}
+ 
+.slider-frame li{list-style: none;width: 100%;}
+
+.slider-frame img{width: 60%;}
+
+@keyframes slide{
+0% {margin-left: 0%;}
+10%{margin-left: 0%;}
+
+20% {margin-left: -100%;}
+35% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+85% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}
+
+.destinosnal{text-align: center;font-size:15px;margin-top: 0;}
+.destinosint{text-align: center;font-size:15px;margin-top: 50px;}
+
+.nacionalesframe img{width:350px; height: 200px;display:inline-block;margin-right:40px;margin-left: 55px;margin-top: 0px;border-radius: 15%;}
+
+
+.Internacionalesframe img{width:350px; height: 200px;display:inline-block;margin-right:40px;margin-left: 55px;margin-top: 5px;border-radius: 15%;}
+
+
+
+
+
+
+
+
+
+
